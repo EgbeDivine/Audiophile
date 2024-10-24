@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    background-color: black;
+    height: 70vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+    border-bottom: 1px solid grey;
+    align-items: center;
+}
+.navbar .logo h2{
+    color: white;
+}
+
+
+.navbar .navlinks a{
+  color: white;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+
+.navbar .nav-icon .cart{
+    color: white;
+    font-size: 20px;
+}
+
+.section-1{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin:50px auto;
+}
+
+.section-1 .left-part{
+   color: white;   
+   width: 40%; 
+}
+
+.section-1 .left-part p{
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+}
+
+
+.section-1 .left-part h4{
+    margin: 20px 0px;
+}
+
+
+.section-1 .left-part button{
+    background-color: #DA7C48;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+}
+
+ .section-1 .right-part {
+    background-image: url("../images/ei_1728912646050-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+.section-2{
+    width: 85%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-2 .headphone {
+    background-color:rgba(128, 128, 128, 0.534);
+    height: 30vh;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+
+
+}
+
+.section-2 .headphone .headphone-image{
+    /* background-image: url("../image/download__1_-removebg-preview.png");
+    background-size: cover;
+    background-repeat: no-repeat; */
+    height: 40%;
+    width: 30%;
+    padding-bottom: 50px;
+    position: relative;
+    top: -70px;
+    left: 40px;
+}
+
+
+.section-2 .headphone  .text{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.section-2 .headphone  .text h3{
+    margin-bottom: 10px;
+}
+
+
+.section-2 .headphone  .text .arrow{
+    color: #DA7C48;
+}
+
+
+
+.section-2 .speaker {
+    background-color:rgba(128, 128, 128, 0.534);
+    height: 30vh;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+
+
+}
+
+.section-2 .speaker .speaker-image{
+    /* background-image: url("../image/download__1_-removebg-preview.png");
+    background-size: cover;
+    background-repeat: no-repeat; */
+    height: 40%;
+    width: 30%;
+    padding-bottom: 50px;
+    position: relative;
+    top: -70px;
+    left: 40px;
+}
+
+
+.section-2 .speaker .text{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.section-2 .speaker  .text h3{
+    margin-bottom: 10px;
+}
+
+
+.section-2 .speaker  .text .arrow{
+    color: #DA7C48;
+}
+
+
+.section-2 .Earphone {
+    background-color:rgba(128, 128, 128, 0.534);
+    height: 30vh;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+
+
+}
+
+.section-2 .Earphone .Earphone-image{
+    background-image: url("../image/ei_1728912778011-removebg-preview.png");
+    background-size: cover;
+    /* background-repeat: no-repeat;
+    /* height: 30%;
+    width: 30%;
+    padding-bottom: 50px;
+    position: relative;
+    top: -90px;
+    left: 40px; */
+}
+
+
+.section-2 .Earphone .text{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.section-2 .Earphone .text h3{
+    margin-bottom: 10px;
+}
+
+
+.section-2 .Earphone  .text .arrow{
+    color: #DA7C48;
+}
+
+
+.section3 .zx9-speaker{
+    background-color: #DA7C48;
+    height: 40vh;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    margin: 60px auto;
+    border-radius: 5px;
+}
+
+.section3 .zx9-speaker .picture{
+    background-image: url("../image/IMG-20241014-WA0035.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section3 .zx9-speaker .text{
+    color: white;
+    height: 30vh;
+}
+
+
+.section3 .zx9-speaker .text p{
+    margin: 30px 0px;
+}
+
+.section3 .zx9-speaker .text button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+}
+
+
+@media screen and (max-width:1024px) {
+    
+    
+.header .navlinks a{
+        display: none;
+    }
+}
